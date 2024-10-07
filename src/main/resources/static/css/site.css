@@ -1,0 +1,195 @@
+
+.hotSP {
+    padding-bottom: 11px;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hotSP a {
+    font-size: 16px;
+    color: #000028;
+    margin-top: 1px;
+}
+
+.hotSP a:hover {
+    color: #fe4305;
+}
+
+.hotSP span {
+    position: relative;
+}
+
+.hotSP span:nth-child(1) {
+    margin-right: 20px;
+}
+
+.isSelect {
+    color: #fe4305;
+}
+
+.isSelect::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: #fe4305;
+    position: absolute;
+    left: 0;
+    top: 34px;
+}
+
+
+.none {
+    display: none;
+}
+
+
+
+.contentBox {
+    margin-top: 2px;
+}
+
+.contentLeft {
+    width: 800px;
+    margin-top: 30px;
+}
+
+.contentRight {
+    width: 360px;
+}
+
+
+ /*分页*/
+.page {
+    margin-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 0;
+}
+
+.page ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+.page ul li:hover {
+    background: #00a1d6;
+    border-color: #00a1d6;
+}
+
+.page ul li:hover a {
+    color: #fff;
+}
+
+.currentPage {
+    background: #00a1d6;
+    border-color: #00a1d6;
+}
+
+.currentPage a {
+    color: #fff;
+}
+
+
+ /*内容详情*/
+.detailTit {
+    width: 233px;
+    height: 34px;
+    background: #fe4305;
+    color: #fff;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 29px;
+}
+
+
+ /*食材详情*/
+.introduction {
+    margin-bottom: 20px;
+}
+
+.introduction img {
+    margin-right: 10px;
+}
+
+.introductionTit {
+    color: #fe4305;
+    font-size: 30px;
+
+}
+
+.itemTag {
+    font-size: 16px;
+    color: #333;
+    line-height:2.9;
+    font-weight: 1000;
+    letter-spacing: 6px;
+}
+
+.itemTag p {
+    margin-top: 20px;
+}
+
+.introductionTop {
+    margin-left: 150px;
+}
+
+.itemTagL {
+    width: 35%;
+}
+
+.itemTagR {
+    width: 43%;
+}
+
+
+.deatilNav{
+    border: #89b4cebd solid 5px;
+    border-radius: 12px;
+}
+.deatilNavItem span {
+    margin-right: 30px;
+}
+
+.deatilNavItem span:nth-child(1) {
+    margin-right: 30px;
+}
+
+.articleContent p {
+    font-size: 19px;
+    color: rgb(75, 75, 75);
+    line-height: 32px;
+    font-family: "SimSun", "宋体";
+}
+
+.detailArticle {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.detailBigImg {
+    max-width: 100%;
+}
+
+.share {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.articleContent .itemTwo {
+    text-align: center;
+}
+

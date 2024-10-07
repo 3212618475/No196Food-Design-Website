@@ -1,0 +1,767 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}
+
+/*——————————————————头部——————————————————*/
+.HD {
+    width:100%;
+    height: 120px;
+    background-color: #89b4cebd;
+}
+
+.HD .header {
+    width: 80%;
+    height: 120px;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.HD .header .header_log {
+    float: left;
+    margin-top: -70px;
+    margin-right: 4%;
+    margin-left: 0px;
+}
+
+.HD .header .header_log img {
+    width: 250px;
+    height: 250px;
+}
+
+/**搜索栏**/
+.HD .header .header_txt {
+    float: left;
+    background-color: white;
+    width: 39%;
+    margin-top: 40px;
+    height: 45px;
+    line-height: 38px;
+    margin-right: 3%;
+    border-radius: 7px 18px 18px 7px;
+}
+
+.HD .header .header_txt #first {
+    float: left;
+    overflow: hidden;
+    width: 76.8%;
+    height: 45px;
+    font-size: 16px;
+    text-align: left;
+    background-color: white;
+    border: 1px;
+    border-radius: 18px;
+}
+
+.HD .header .header_txt #second {
+
+    cursor: pointer;
+    float: left;
+    color: #fff;
+    background: #00a1d6;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 42px;
+    text-align: center;
+    width: 109px;
+    border-radius: 18px
+}
+/***顶部右侧登录***/
+.HD .header .header_deng {
+    float: left;
+    overflow: hidden;
+    width: 33%;
+    height: 60px;
+    margin-top: 30px;
+}
+
+.HD .header .header_deng .deng_2 li {
+    width: 30%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    overflow: hidden;
+    font-size: 14px;
+    margin-top: 3px;
+    color: white;
+    margin-right: 3%;
+    border-radius: 20px;
+}
+
+.HD .header .header_deng .deng_2 li a {
+    text-decoration: none;
+}
+
+/*——————————————————导航——————————————————*/
+.DH {
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.3);
+    height: 76px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 2000;
+    margin: 0 auto;
+}
+
+.DH .daohang {
+    height: 76px;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.DH .daohang ul {
+    width: 82%;
+    height: 76px;
+    margin-left: 268px;
+}
+
+.DH .daohang ul li {
+    float: left;
+    overflow: hidden;
+    height: 76px;
+    width: 12%;
+    line-height: 76px;
+    cursor: pointer;
+}
+
+.DH .daohang ul li .dh_a {
+    height: 76px;
+    line-height: 76px;
+    margin-bottom: 0px;
+    color: black;
+    text-decoration: none;
+}
+
+
+/*——————————————————中间——————————————————*/
+.CT {
+    width: 100%;
+    height: 1040px;
+    background-color: #ffe4c4;
+}
+
+.CT .content {
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+
+}
+
+
+.CT .content .content_c1 {
+    width: 100%;
+    height: 380px;
+    position: relative;
+}
+
+
+.CT .content .content_c1 .ctime1 {
+    float: left;
+    width: 100%;
+    height: 330px;
+    position: relative;
+}
+
+
+.CT .content .content_c1 .ctime1 .time_1 {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.CT .content .content_c1 .time_1 ul {
+    width: 100%;
+    height: 100%;
+}
+
+.CT .content .content_c1 .time_1 ul li {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.CT .content .content_c1 .time_1 ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.CT .content .content_c1 .time_1 ul li div {
+    position: absolute;
+    top: 245px;
+    width: 100%;
+    height: 85px;
+    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.CT .content .content_c1 .time_1 ul li div h2 {
+    width: 100%;
+    height: 55%;
+    text-align: left;
+
+}
+
+.CT .content .content_c1 .time_1 ul li div h2 a {
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 4%;
+    line-height: 50px;
+}
+
+.CT .content .content_c1 .time_1 ul li div p {
+    width: 100%;
+    height: 43%;
+    text-align: left;
+}
+
+.CT .content .content_c1 .time_1 ul li div p strong {
+    color: black;
+    font-weight: 200;
+    margin-left: 4%;
+}
+
+.CT .content .content_c1 .ctime2 {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: white;
+    position: relative;
+}
+
+
+.CT .content .content_c1 .ctime2 .time_2 {
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-size: 16px;
+    color: black;
+    font-weight: 800;
+    border-top: 3px solid black;
+    display: block;
+}
+
+.CT .content .content_c2 {
+    width: 100%;
+    height: 300px;
+}
+
+.CT .content .content_c2 .food_material1 {
+    width: 100%;
+    height: 100px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.CT .content .content_c2 .food_material1 p {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.CT .content .content_c2 .food_material1 .more {
+    width: 9%;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+.CT .content .content_c2 .food_material1 .more a {
+    color: #3B3B3B;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.CT .content .content_c2 .food_material2 {
+    width: 100%;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+    background-color: white;
+}
+
+.CT .content .content_c2 .food_material2 .food_up {
+    width: 100%;
+    height: 50px;
+    margin-left: 2%;
+}
+
+.CT .content .content_c2 .food_material2 .food_up .food_u {
+    width: 6%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 200;
+    float: left;
+    overflow: hidden;
+    margin-top: 18px;
+    background-color: white;
+}
+
+.CT .content .content_c2 .food_material2 .food_up .food_u a {
+    text-decoration: none;
+    color: #3B3B3B;
+}
+
+.CT .content .content_c2 .food_material2 .food_up .food_u.food_p1 {
+    background: red;
+}
+
+.CT .content .content_c2 .food_material2 .food_up .food_u a.food_p2 {
+    color: white;
+}
+
+.CT .content .content_c2 .food_material2 .food_down {
+    width: 100%;
+    height: 80px;
+    margin-left: 2%;
+    margin-top: 10px;
+}
+
+.CT .content .content_c2 .food_material2 .food_down .food_d {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.CT .content .content_c2 .food_material2 .food_down .down1 {
+    width: 11.8%;
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-left: 2px;
+}
+
+.CT .content .content_c2 .food_material2 .food_down .down1 img {
+    width: 100%;;
+    height: 100%;
+}
+
+.CT .content .content_c2 .food_material2 .food_down .down1 ul {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    background: rgba(255, 255, 255, 0.7);
+    clear: both;
+}
+
+.CT .content .content_c2 .food_material2 .food_down .down1 ul li {
+    padding: 0;
+    width: 60%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 13px;
+    text-align: left;
+}
+
+.CT .content .content_c3 {
+    width: 100%;
+    height: 770px;
+    position: relative;
+}
+
+.CT .content .content_c3 .cookbook {
+    width: 100%;
+    height: 100%;
+    display: none;
+
+}
+
+.CT .content .content_c3 .cookbook .book1 {
+    width: 100%;
+    height: 120px;
+    display: block;
+    float: left;
+    overflow:auto;
+}
+
+.CT .content .content_c3 .cookbook .book1 .cook1 p {
+    width: 100%;
+    height: 120px;
+    line-height: 120px;
+    font-size: 24px;
+    font-weight: 400;
+    /* border: solid 1px royalblue;*/
+}
+
+.CT .content .content_c3 .cookbook .book2 {
+    width: 100%;
+    height: 650px;
+    float: left;
+    overflow: visible;
+}
+
+.CT .content .content_c3 .cookbook .book2 ul {
+    width: 100%;
+    height: 100%;
+}
+
+.CT .content .content_c3 .cookbook .book2 ul .cook2 {
+    width: 22%;
+    height: 300px;
+    float: left;
+    overflow: auto;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.CT .content .content_c3 .cookbook .book2 ul .cook2 .cook21 {
+    width: 100%;
+    height: 80%;
+}
+
+.CT .content .content_c3 .cookbook .book2 ul .cook2 .cook21 img {
+    width: 100%;
+    height: 100%;
+}
+
+.CT .content .content_c3 .cookbook .book2 ul .cook2 .cook22 {
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+}
+
+.CT .content .content_c3 .cookbook .book2 ul .cook2 .cook22 .cook221 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+    background-color: #f2d0d1c7
+}
+
+.CT .content .content_c3 .cookbook .book2 ul .cook2 .cook22 .cook221 .p1 {
+    text-align: left;
+    margin-left: 10%;
+    height: 33%;
+    line-height: 20px;
+}
+
+.CT .content .content_c3 .cookbook .book2 ul .cook2 .cook22 .cook221 .p1 a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.CT .content .content_c3 .cookbook .book2 ul .cook2 .cook22 .cook221 .p2 {
+    text-align: left;
+    margin-left: 10%;
+    height: 33%;
+    line-height: 20px;
+}
+
+.CT .content .content_c3 .cookbook .book2 ul .cook2 .cook22 .cook221 .p2 a {
+    color: gray;
+    font-size: 12px;
+    word-spacing: 10px;
+    text-decoration: none;
+}
+
+.CT .content .content_c3 .cookbook .book2 ul .cook2 .cook22 .cook221 .p3 {
+    text-align: left;
+    margin-left: 10%;
+    height: 33%;
+    line-height: 20px;
+}
+
+.CT .content .content_c3 .cookbook .book2 ul .cook2 .cook22 .cook221 .p3 a {
+    color: red;
+    font-size: 12px;
+    word-spacing: 10px;
+    text-decoration: none
+}
+
+.CT .content .content_c3 .cookbook .book2 ul .cook2 .cook22 .cook222 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    background-color: rgba(96, 96, 96, 0.1);
+    cursor: pointer;
+}
+
+.CT .content .content_c3 .cookbook .book2 ul .cook2 .cook22 .cook222 li {
+    width: 100%;
+    height: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.CT .content .content_c3 .cookbook .book2 ul .cook2 .cook22 .cook222 li img {
+    float: left;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    margin-left: 5%;
+}
+
+.CT .content .content_c3 .cookbook .book2 ul .cook2 .cook22 .cook222 li a {
+    float: left;
+    overflow: hidden;
+    width: 70%;
+    height: 100%;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 3%;
+    color: black;
+    text-decoration: none;
+}
+
+
+/*——————————————————底部——————————————————*/
+.BM {
+    background-color: #3B3B3B;
+    width: 100%;
+    height: 100%;
+}
+
+.BM .bottom {
+    width: 70%;
+    height: 450px;
+    margin-left: 15%;
+}
+
+.BM .bottom .bot_f {
+    width: 100%;
+    height: 190px;
+}
+
+.BM .bottom .bot_f .bot_f1 {
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    height: 190px;
+    cursor: pointer;
+}
+
+.BM .bottom .bot_f .bot_f1 img {
+    width: 500px;
+    height: 436px;
+    margin-top: -130px;
+    margin-left: 5%;
+}
+
+.BM .bottom .bot_f .bot_f2 {
+    float: right;
+    overflow: hidden;
+    height: 190px;
+    width: 60%;
+}
+
+.BM .bottom .bot_f .bot_f2 .bot_fa {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.BM .bottom .bot_f .bot_f2 ul {
+    width: 92.5%;
+    float: right;
+}
+
+.BM .bottom .bot_f .bot_f2 ul li {
+    float: left;
+    overflow: hidden;
+    margin-left: 6.1%;
+    margin-top: 20px;
+    height: 150px;
+    font-size: 12px;
+    width: 18%;
+}
+
+.BM .bottom .bot_f .bot_f2 ul li div {
+    width: 100%;
+    height: 110px;
+    position: relative;
+}
+
+.BM .bottom .bot_f .bot_f2 ul li div img {
+    width: 100%;
+    height: 110px;
+}
+
+.BM .bottom .bot_f .bot_f2 ul li .iig {
+    width: 100%;
+    height: 20%;
+    color: white;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.BM .bottom .bot_f .bot_f2 ul li a {
+    width: 100%;
+    height: 40px;
+    line-height: 10px;
+}
+
+.BM .bottom .bot_s {
+    width: 100%;
+    height: 110px;
+    font-size: 12px;
+    color: dimgrey;
+    border-bottom: 1px solid dimgrey;
+}
+
+.BM .bottom .bot_s dt {
+    float: left;
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid dimgrey;
+    color: white;
+
+}
+
+.BM .bottom .bot_s dd {
+    float: left;
+    width: 6.9%;
+    text-align: left;
+    overflow: hidden;
+    margin-right: 2%;
+    margin-top: 3px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.BM .bottom .bot_s dd a {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.BM .bottom .bot_t {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    color: dimgrey;
+}
+
+.BM .bottom .bot_t .bot_t1 {
+    width: 80%;
+    height: 40px;
+    margin-left: 11.3%;
+    font-size: 12px;
+}
+
+.BM .bottom .bot_t .bot_t1 li {
+    float: left;
+    overflow: hidden;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 2.7%;
+    cursor: pointer;
+}
+
+.BM .bottom .bot_t .bot_t1 li a {
+    text-decoration: none;
+    color: dimgrey;
+    width: 60px;
+    height: 16px;
+}
+
+.BM .bottom .bot_t .bot_t2 {
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    font-size: 12px;
+}
+
+.BM .bottom .bot_t .bot_t2 a {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+/*****轮播图****/
+.slider {
+    height: 608px;
+    width: 100%;
+    margin: 14px auto;
+    position: relative;
+    background-color: #ffe4c4;
+    margin-bottom: -1px;
+    margin-top: 3px;
+}
+
+.slider img{
+    width: 1520px;
+    height: 610px;
+    border-radius: 90px;
+}
+.slider li {
+    position: absolute;
+    display: none;
+}
+
+.slider li:first-child {
+    display: block;
+}
+
+
+.arrow {
+    display: none;
+}
+
+.slider:hover .arrow {
+    display: block;
+}
+
+.arrow-left,
+.arrow-right {
+    font-family: "SimSun", "宋体";
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}

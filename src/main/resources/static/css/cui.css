@@ -1,0 +1,166 @@
+
+#master-wrapper {
+    overflow: hidden;
+    background: #f5f5f5;
+}
+
+.smoothie {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+h4{
+    font-family: 'Raleway',serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 1.1em;
+}
+
+.vertical-align-bottom {
+    bottom: 0px;
+    position: absolute;
+}
+
+.vertical-align-top {
+    position: absolute;
+    top: 15px;
+}
+/****文化栏***/
+
+/***图里的字体***/
+.item-category-span {
+    clear: left;
+    background-color: #F64747;
+    color: #fff;
+    padding: 1px 7px 0;
+    display: block;
+    float: left;
+    margin: -10px 0 20px;
+    letter-spacing: 2px;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 19px;
+}
+
+.hover-effect {
+    position: relative;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.hover-effect .img-responsive {
+    width: 100%;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    backface-visibility: hidden;
+    width: 352px;
+    height: 352px;
+}
+
+.hover-effect:hover .img-responsive {
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    backface-visibility: hidden;
+}
+
+.hover-effect .hover-caption, .hover-effect .hover-overlay {
+    position: absolute;
+    width: calc(100% - 30px);
+    height:calc(100% - 30px);
+    top: 15px;
+    left: 15px;
+    opacity: 0;
+    padding: 0 20px;
+}
+
+.hover-effect .hover-caption {
+    top: 15px;
+    text-align: left;
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.hover-effect:hover .hover-caption {
+    opacity: 1;
+    z-index: 5;
+    width: calc(100% - 30px);
+    height:calc(100% - 30px);
+    top: 15px;
+    left: 15px;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.hover-effect .hover-caption {
+    background-color: rgba(0,0,0,0.6);
+    color: #222;
+}
+
+.hover-effect .hover-caption, .hover-effect .hover-caption p small {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+/***图里的字体***/
+.hover-effect .hover-overlay {
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+    opacity: 1;
+    color: #fff;
+}
+
+.hover-effect:hover .hover-overlay {
+    opacity: 0;
+    top: 100px;
+}
+
+.hover-effect h4 {
+    letter-spacing: 5px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    width: calc(100% - 20px);}
+
+.btn {
+    text-transform: uppercase;
+    padding: 8px 18px;
+    border-radius: 0px;
+    font-weight: 800;
+    border-width: 2px;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.btn-primary {
+    background-color: #F64747;
+    border-color: #F64747;
+}
+
+section{
+    overflow: hidden;
+}
+
+@media all and (min-width: 1400px) {
+    .container {
+        width: 1400px;
+    }
+}
