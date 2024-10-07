@@ -32,8 +32,9 @@
 编程语言：Java
 数据库：MySQL
 项目管理工具：Maven
-前端技术：Vue
+前端技术：JSP+Layui+Bootstrap
 后端技术：SpringBoot
+
 
 三、运行环境
 ---
